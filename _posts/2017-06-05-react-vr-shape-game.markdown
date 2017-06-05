@@ -1,16 +1,15 @@
 ---
 layout: post
-title: "React-VR Shape Game Explained"
-date: 2017-05-08 11:36:06 -0400
+title: "Build a Shape Game with React-VR"
+date: 2017-06-05 11:38:06 -0400
 comments: true
 categories:
 ---
-![alt text](../images/react-vr-shape-game/09-shape-game.png)
+![alt text](/images/react-vr-shape-game/09-shape-game.png)
 
-# Build a BADASS SHAPE GAME with React
+Begin.
 
-![alt text](../images/react-vr-shape-game/05-import-index.png)
-
+![alt text](/images/react-vr-shape-game/05-import-index.png)
 
 First I need to **import elements** from react, react-vr, and a shape component I'll make a little bit later.
 
@@ -48,7 +47,7 @@ I want the user to be able to look at a shape and get a point if it's the specia
 
 ## Define ShapeGame Class
 
-![alt text](../images/react-vr-shape-game/06-shape-class.png)
+![alt text](/images/react-vr-shape-game/06-shape-class.png)
 
 I begin by defining the **class** and it's **constructor** function.  Inside I
 call **super** to inherit **props** from the window since index.vr.js is the **root component**.
@@ -57,20 +56,20 @@ Next I set the **constructor's state**.  I want to keep track of 4 shape array s
 
 ## Register it with AppRegistry
 
-![alt text](../images/react-vr-shape-game/07-app-registry.png)
+![alt text](/images/react-vr-shape-game/07-app-registry.png)
 
 Since I have now defined my **ShapeGame class component** I need to **register** it
 with **AppRegistry** since **index.vr.js** is my **root** file.
 
 ## Load the score and Trigger new Shape Set on first render
 
-![alt text](../images/react-vr-shape-game/03-componentDidMount.png)
+![alt text](/images/react-vr-shape-game/03-componentDidMount.png)
 
 When the **gameShape component** first renders onto the page and is in it's **componentDidMount** phase it loads the score from **AsyncStorage**, sets gameShape's score **state** equal to that value, and then triggers a **newGameSet**.
 
 ## Create styles
 
-![alt text](../images/react-vr-shape-game/08-styles.png)
+![alt text](/images/react-vr-shape-game/08-styles.png)
 
 Before I create a render function to display the game I need to
 create some **styles** to use.
@@ -83,7 +82,7 @@ The **transform property** uses a **translate property** and **3 integer coordin
 
 ## Render the game
 
-![alt text](../images/react-vr-shape-game/00-index-render.png)
+![alt text](/images/react-vr-shape-game/00-index-render.png)
 
 Just like with **vanilla react** I can only **export** *one container at a time*. To take care of this I'll nest all the scene's components inside a **react-vr View component**.
 
@@ -102,7 +101,7 @@ You'll notice I'm passing it a **transform property** with some **subtraction** 
 
 ### Create a Shape Class Component in a new file
 
-![alt text](../images/react-vr-shape-game/04-imported-shape-component.png)
+![alt text](/images/react-vr-shape-game/04-imported-shape-component.png)
 
 Ok. First I **import** vanilla react/component, but you'll notice I'm also
 importing several **components** from **react-vr**.
@@ -140,7 +139,7 @@ At the end I return this nameless Component and it will in turn render out to be
 
 ## Back in index.vr.js Create a New Game Set
 
-![alt text](../images/react-vr-shape-game/01-new-game-set.png)
+![alt text](/images/react-vr-shape-game/01-new-game-set.png)
 
 #### game logic
 
@@ -176,7 +175,7 @@ Now I randomly generate the new special index number, use it to replace the inde
 
 ## Pick shape
 
-![alt text](../images/react-vr-shape-game/02-pick-shape.png)
+![alt text](/images/react-vr-shape-game/02-pick-shape.png)
 
 1. I start by setting the local variable score to this.state.score. Any time an index is passed to pickShape it will check if this.state.specialIndex is the same as the shapeIndex passed in.  If it is then the ternary will flip true and return the score + 1 and - 1 if false.
 
