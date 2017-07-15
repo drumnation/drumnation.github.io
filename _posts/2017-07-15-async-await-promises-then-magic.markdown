@@ -15,23 +15,23 @@ Here's the [post that convinced me](https://hackernoon.com/6-reasons-why-javascr
 ## 6 Reasons why Async/Await is better
 
 ### 1. Concise and clean
-    No annonymous callback function, function nesting, or unused variable like 'data'
+No annonymous callback function, function nesting, or unused variable like 'data'
 
 ### 2. Error handling
-    Catch block can now handle asynchronous errors
+Catch block can now handle asynchronous errors
 
 ### 3. Conditionals
-    Greatly simplify conditionals and eliminate nesting, extra braces, and redundant return statements.
+Greatly simplify conditionals and eliminate nesting, extra braces, and redundant return statements.
 
 ### 4. Intermediate Values
-    In situations where promise 3 uses data from promise 2 to make it's request, async await can cut the necessary code to 1/4th the lines.
+In situations where promise 3 uses data from promise 2 to make it's request, async await can cut the necessary code to 1/4th the lines.
 
 ### 5. Error Stacks
-    With long promise chains, promises/then makes it very difficult to determine which promise broke. 
-    try/catch makes it possible to report on any failure in the chain without duplicating any code.
+With long promise chains, promises/then makes it very difficult to determine which promise broke. 
+try/catch makes it possible to report on any failure in the chain without duplicating any code.
 
 ### 6. Debugging
-    Arrow functions can't return expressions, async await lets you avoid arrow functions, using 'debugger' works properly with async await / weird step over functionality with then
+Arrow functions can't return expressions, async await lets you avoid arrow functions, using 'debugger' works properly with async await / weird step over functionality with then
 
 ## Code Examples
 
