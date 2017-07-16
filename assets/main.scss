@@ -31,12 +31,28 @@ a:visited {
     color: #28fe28;
 }
 
+.circular--landscape {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.circular--landscape img {
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+}
+
 hr {
     margin-top: 25px;
     margin-bottom: 25px;
-  border: 0;
-  background-color: #fff;
-  border-top: 1px dashed #8c8c8c;
+    border: 0;
+    background-color: #fff;
+    border-top: 1px dashed #8c8c8c;
 }
 
 a:hover {

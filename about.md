@@ -1,10 +1,13 @@
 ---
 layout: page
-title: About Me and my Projects
+title: About Me and My Projects
 permalink: /about/
 ---
+<p style="float:left;"><img class="circular--landscape" src="/images/fb.jpg"></p>
 
-This is my personal website for posting about programming, digital marketing, and music. Below is a sampling of the kinds of projects I've been involved in thus far.
+<p>With experience scraping data, creating bots, and command over the full application stack via Ruby on Rails, Javascript and ReactJS, and newcomers like ReactVR, I'm the sort that likes to jump in and learn something new quite often.</p>
+
+<p>When I'm not coding I'm either enjoying some downtime with games like RocketLeague or Hearthstone. With a degree in Music Theory/Composition and a focus in Percussion, I spent a lot of time composing soundtracks, programming music, and playing drums in Progressive Metal bands.</p>
 
 ***
 
