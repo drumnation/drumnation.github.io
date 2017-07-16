@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Dave's Blogologothon
+title: Dave's Super Magical Blogologothon
 email: davidmieloch@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Code, VR, Music, and Polka.
+  Ruby, Rails, Javascript, React, VR, and Polka.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mieloch
@@ -24,6 +24,9 @@ github_username:  drumnation
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 theme: minima
 gems:
   - jekyll-feed

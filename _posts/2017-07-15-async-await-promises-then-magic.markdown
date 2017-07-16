@@ -39,41 +39,17 @@ I was writing a SeleniumWebdriver script and began by getting it to almost work 
 
 ## ES6 Promises/.then()
 
-<pre>
-    function bookClass(convo) {
-        browser.findElement(By.css('.tooltip.tooltip--center.mt-.bt.bt--lg.bt--width-full')).click()
-        .then( () => {
-            browser.switchTo().frame(0)
-            .then( () => { 
-                browser.sleep(2000)
-                browser.findElement(By.linkText("Reserve this class")).click()
-                .then( () => {
-                    const reservationFailed = browser.findElements(By.xpath("//*[contains(text(), 'Reservation failed')]")) ? true : false
-                    if (reservationFailed) {
-                        convo.next()
-                        convo.say('Sorry. No more spots are available. Reservation Failed.')
-                    } else {
-                        convo.next()
-                        convo.say("Congrats! You're registered.")
-                    }
-                })
-            })
-        })
-    }
-</pre>
-
-## ES7 Async/Await
-
-<pre>
-    const bookClass = async (convo) => {
-        try {
-            await browser.findElement(By.css('.tooltip.tooltip--center.mt-.bt.bt--lg.bt--width-full')).click()
-            await browser.switchTo().frame(0)
+``` javascript
+function bookClass(convo) {
+    browser.findElement(By.css('.tooltip.tooltip--center.mt-.bt.bt--lg.bt--width-full')).click()
+    .then( () => {
+        browser.switchTo().frame(0)
+        .then( () => { 
             browser.sleep(2000)
-            await browser.findElement(By.linkText("Reserve this class")).click()
-            await browser.switchTo().activeElement()
-            await browser.findElements(By.xpath("//*[contains(text(), 'Sorry, no more spots are available.')]")).then(function(element) {
-                if (element.length > 0) {
+            browser.findElement(By.linkText("Reserve this class")).click()
+            .then( () => {
+                const reservationFailed = browser.findElements(By.xpath("//*[contains(text(), 'Reservation failed')]")) ? true : false
+                if (reservationFailed) {
                     convo.next()
                     convo.say('Sorry. No more spots are available. Reservation Failed.')
                 } else {
@@ -81,9 +57,33 @@ I was writing a SeleniumWebdriver script and began by getting it to almost work 
                     convo.say("Congrats! You're registered.")
                 }
             })
-        } catch (err) { console.log(err) }
-    }
-</pre>
+        })
+    })
+}
+```
+
+## ES7 Async/Await
+
+``` javascript
+const bookClass = async (convo) => {
+    try {
+        await browser.findElement(By.css('.tooltip.tooltip--center.mt-.bt.bt--lg.bt--width-full')).click()
+        await browser.switchTo().frame(0)
+        browser.sleep(2000)
+        await browser.findElement(By.linkText("Reserve this class")).click()
+        await browser.switchTo().activeElement()
+        await browser.findElements(By.xpath("//*[contains(text(), 'Sorry, no more spots are available.')]")).then(function(element) {
+            if (element.length > 0) {
+                convo.next()
+                convo.say('Sorry. No more spots are available. Reservation Failed.')
+            } else {
+                convo.next()
+                convo.say("Congrats! You're registered.")
+            }
+        })
+    } catch (err) { console.log(err) }
+}
+```
 
 ## So you can see that...
 

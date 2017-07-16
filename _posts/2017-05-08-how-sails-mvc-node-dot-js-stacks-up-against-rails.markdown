@@ -68,8 +68,9 @@ Creates a controller named "Welcome" with an action of "index"
 To get these MVCs saying "Hello", you need to create at minimum a controller and a view.
 
 ### Sails
-
-<pre><code>'GET /welcome/index': 'WelcomeController.index'</code></pre>
+``` javascript
+'GET /welcome/index': 'WelcomeController.index'
+```
 
 Sails allows you to manually bind routes to controller actions using the config/routes.js file.
 
@@ -94,19 +95,23 @@ If :action is not specified, Sails will redirect to the appropriate action. Out 
 
 ### Rails
 
-<pre><code>get 'welcome/index', to: 'welcome#index'</code></pre>
+```ruby
+get 'welcome/index', to: 'welcome#index'
+```
 
 Rails allows you to manually bind routes to controller actions using the config/routes.rb file.
 
 Rails allows you to define resources that generate appropriate routes.
 
-<pre><code>Rails.application.routes.draw do
+``` ruby
+Rails.application.routes.draw do
   get 'welcome/index'
 
   resources :articles
 
   root 'welcome#index'
-end</code></pre>
+end
+```
 
 Which produces these default routes:
 
@@ -127,20 +132,23 @@ edit_article GET    /articles/:id/edit(.:format) articles#edit
 
 ### Sails
 
-<pre><code>module.exports = {
+``` javascript
+module.exports = {
   hi: function (req, res) {
     return res.send('Hi there!');
   },
   bye: function (req, res) {
     return res.redirect('http://www.sayonara.com');
   }
-};</code></pre>
+};
+```
 
 A controller file defines a Javascript dictionary (aka "plain object") whose keys are action names, and whose values are the corresponding action methods.
 
 ### Rails
 
-<pre><code>class ArticlesController < ApplicationController
+``` ruby
+class ArticlesController < ApplicationController
 
 def new
   @article = Article.new
@@ -158,7 +166,8 @@ def create
   else
     render 'new'
   end
-end</code></pre>
+end
+```
 
 # Configuring Views
 
@@ -191,8 +200,8 @@ Active Record facilitates the creation and use of business objects whose data re
 # Connecting a Database
 
 ### Sails
-
-<pre><code>// in config/connections.js
+``` javascript
+// in config/connections.js
 // ...
 {
   adapter: 'sails-mysql',
@@ -201,7 +210,8 @@ Active Record facilitates the creation and use of business objects whose data re
   user: 'root',
   password: 'g3tInCr4zee&stUfF'
 }
-// ...</pre></code>
+// ...
+```
 
 A connection represents a particular database configuration. This configuration object includes an adapter to use, as well as information like the host, port, username, password, and so forth.
 
