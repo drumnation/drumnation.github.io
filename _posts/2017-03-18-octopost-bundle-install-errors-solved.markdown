@@ -2,8 +2,6 @@
 layout: post
 title: "Octopost Bundle Install Errors (Solved)"
 date: 2017-03-14 16:55:04 -0400
-comments: true
-categories: Flatiron School, Octopress, Bundle
 ---
 ## An error occurred while installing yajl-ruby (1.2.1), and Bundler cannot continue'
 

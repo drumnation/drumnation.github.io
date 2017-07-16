@@ -2,7 +2,6 @@
 layout: post
 title: "The Golden Hammer"
 date: 2017-03-18 19:32:24 -0400
-comments: true
 ---
 ## Flatiron School HiveMind Automation Tool
 

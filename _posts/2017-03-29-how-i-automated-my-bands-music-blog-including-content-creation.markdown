@@ -1,9 +1,7 @@
 ---
 layout: post
-title: "How I Automated My Bands Music Blog Including Content Creation"
+title: "How I Automated My Band's Music Blog Including Content Creation"
 date: 2017-03-29 21:45:02 -0400
-comments: true
-categories: Flatiron School, Music Marketing, SEO, Automation
 ---
 ## INTRO
 

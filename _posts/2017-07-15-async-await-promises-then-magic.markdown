@@ -2,11 +2,9 @@
 layout: post
 title: "ES6 Promises/.then() vs. ES7 Async/Await"
 date: 2017-07-15 3:18:06 -0400
-comments: true
-categories: javascript, asynchronous functions, es7
 ---
 
-# Ditch Promises/.then() for ES7's Async/Await
+## Ditch Promises/.then() for ES7's Async/Await
 
 Now that [Node 8](https://nodejs.org/en/blog/release/v8.0.0/) has been released Async/Await is fully supported. asyncawait addresses the problem of callback hell in Node.js JavaScript code. Inspired by C#'s Async/Await feature, Async/Await enables you to write functions that appear to block at each asynchronous operation, waiting for the results before continuing with the following statement.
 
@@ -15,7 +13,7 @@ Here's the [post that convinced me](https://hackernoon.com/6-reasons-why-javascr
 ## 6 Reasons why Async/Await is better
 
 ### 1. Concise and clean
-No annonymous callback function, function nesting, or unused variable like 'data'
+No annonymous callback functions, function nesting, or unused variable like 'data'
 
 ### 2. Error handling
 Catch block can now handle asynchronous errors

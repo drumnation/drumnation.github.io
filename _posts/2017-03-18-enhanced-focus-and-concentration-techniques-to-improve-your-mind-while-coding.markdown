@@ -2,8 +2,6 @@
 layout: post
 title: "Enhanced focus and concentration techniques to improve your mind while coding"
 date: 2017-03-18 22:46:05 -0400
-comments: true
-categories:
 ---
 <h2>Intro</h2>
 

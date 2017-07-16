@@ -2,8 +2,6 @@
 layout: post
 title: "Build a Shape Game with React-VR"
 date: 2017-06-05 11:38:06 -0400
-comments: true
-categories:
 ---
 ![alt text](/images/react-vr-shape-game/09-shape-game.png)
 

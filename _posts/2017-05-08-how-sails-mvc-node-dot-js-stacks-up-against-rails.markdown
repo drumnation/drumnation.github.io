@@ -2,8 +2,6 @@
 layout: post
 title: "How Sails' MVC framework for Node.js compares to Ruby on Rails"
 date: 2017-05-08 11:36:06 -0400
-comments: true
-categories:
 ---
 # What is Sails?
 

@@ -2,8 +2,6 @@
 layout: post
 title: "My practice regimen for retaining information about programming"
 date: 2017-03-18 22:48:02 -0400
-comments: true
-categories:
 ---
 <h2>Spaced repetition, Anki, Derek Sivers and more</h2>
 

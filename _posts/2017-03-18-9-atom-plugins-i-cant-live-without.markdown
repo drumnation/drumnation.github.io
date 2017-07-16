@@ -2,8 +2,6 @@
 layout: post
 title: "8 Atom packages I can't live without"
 date: 2017-03-18 22:44:00 -0400
-comments: true
-categories:
 ---
 <h2>Oh my, what nice packages you have.</h2>
 
