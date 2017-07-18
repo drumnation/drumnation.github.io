@@ -40,4 +40,14 @@ Compositions performed by Orchestra 2001, The Link Ensemble, Ann Fontanella, and
 
 Oneironaught is a 4-piece band based in Brooklyn, NY since June 2012. Playing primarily instrumental music, the music is comprised of rock, psychedelic, progressive, metal and classical elements. 
 
+#### VIDEO: Greatest Hits Playlist
+
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/videoseries?list=PLR13IaG_O0C8AtXXlTGx6Pb5MDnV6-ii7" frameborder="0" allowfullscreen></iframe>
+
+#### ALBUM: Tiger Lounge Live Sessions - 2016
+
+<iframe src="https://open.spotify.com/embed/album/6Ybd7XHRmRWH3PWBvnLIXB" width="100%" height="300" frameborder="0" allowtransparency="true"></iframe>
+
+#### ALBUM: Enlist Today! - 2014
+
+<iframe src="https://open.spotify.com/embed/album/3yoQQl4307rCA4eWmuQYQC" width="100%" height="300" frameborder="0" allowtransparency="true"></iframe>
