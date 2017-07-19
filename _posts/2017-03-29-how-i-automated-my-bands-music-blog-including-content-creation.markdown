@@ -323,7 +323,7 @@ A friend of mine who works in video security recommended I try using a magnetic 
 
 Anyway so with all this stuff what kind of results am I getting?
 
-<ß>Let's see:
+Let's see:
 
 ## ANALYTICS
 
@@ -349,15 +349,43 @@ Look what happened from Feb 2016 to when I launched mid March 2016 and everythin
 
 #### SITE LAUNCHES MARCH 8TH 2016
 
-HOLY SHIT! I went from 49 tweets in a month to 464 and from 37.4K Tweet Impressions to 385K Tweet Impressions. ![](/images/programatic-content-creation/23-tw-mar16.png)
+WOAH! I went from 49 tweets in a month to 464 and from 37.4K Tweet Impressions to 385K Tweet Impressions. 
+
+![](/images/programatic-content-creation/23-tw-mar16.png)
 
 And it keeps growing...
 
-![](/images/programatic-content-creation/22-tw-apr16.png) AND GROWING! ![](/images/programatic-content-creation/21-tw-may16.png) Settling down a bit. ![](/images/programatic-content-creation/20-tw-jun16.png) Bouncing back up 100K. ![](/images/programatic-content-creation/19-tw-jul16.png) Dropping. ![](/images/programatic-content-creation/18-tw-aug16.png)
+![](/images/programatic-content-creation/22-tw-apr16.png) 
+
+AND GROWING! 
+
+![](/images/programatic-content-creation/21-tw-may16.png) 
+
+Settling down a bit. 
+
+![](/images/programatic-content-creation/20-tw-jun16.png) 
+
+Bouncing back up 100K. 
+
+![](/images/programatic-content-creation/19-tw-jul16.png) 
+
+Dropping. 
+
+![](/images/programatic-content-creation/18-tw-aug16.png)
 
 And the growth begins slowing down as I do actually have to pay attention to high level site things... I just didn't know where else to go with it without coding a totally custom site with no plugins.
 
-![](/images/programatic-content-creation/17-tw-sep16.png) ![](/images/programatic-content-creation/16-tw-oct16.png) ![](/images/programatic-content-creation/15-tw-nov16.png) ![](/images/programatic-content-creation/14-tw-dec16.png) ![](/images/programatic-content-creation/13-tw-jan17.png) ![](/images/programatic-content-creation/12-tw-feb17.png)
+![](/images/programatic-content-creation/17-tw-sep16.png)
+
+![](/images/programatic-content-creation/16-tw-oct16.png) 
+
+![](/images/programatic-content-creation/15-tw-nov16.png) 
+
+![](/images/programatic-content-creation/14-tw-dec16.png)
+
+![](/images/programatic-content-creation/13-tw-jan17.png) 
+
+![](/images/programatic-content-creation/12-tw-feb17.png)
 
 Got hammered bad with 63.4K impressions (meaning number of times it displayed in a Twitter users' newsfeed)
 
