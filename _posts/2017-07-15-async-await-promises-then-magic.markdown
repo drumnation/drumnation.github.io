@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "ES6 Promises/.then() vs. ES7 Async/Await"
+title: "ES6 Promises/.then() vs. ES8 Async/Await"
 date: 2017-07-15 3:18:06 -0400
 ---
 
-## Ditch Promises/.then() for ES7's Async/Await
+## Ditch Promises/.then() for ES8's Async/Await
 
 Now that [Node 8](https://nodejs.org/en/blog/release/v8.0.0/) has been released Async/Await is fully supported. asyncawait addresses the problem of callback hell in Node.js JavaScript code. Inspired by C#'s Async/Await feature, Async/Await enables you to write functions that appear to block at each asynchronous operation, waiting for the results before continuing with the following statement.
 
@@ -60,7 +60,7 @@ function bookClass(convo) {
 }
 ```
 
-## ES7 Async/Await
+## ES8 Async/Await
 
 ``` javascript
 const bookClass = async (convo) => {
@@ -91,4 +91,4 @@ const bookClass = async (convo) => {
 
 3. Add error handling to 5 promises with 1 line of code
 
-I really like ES7's async await and definitely recommend that you give it a try. You can rest assured that If something goes wrong, someone will patiently wait and catch your errors.
+I really like ES8's async await and definitely recommend that you give it a try. You can rest assured that If something goes wrong, someone will patiently wait and catch your errors.
