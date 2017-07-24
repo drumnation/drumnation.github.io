@@ -41,7 +41,7 @@ To install the [botkit](https://github.com/howdyai/botkit) npm just type:
 
     npm install --save botkit
 
-### If you visit the repo you'll see that they have a few examples for integrations:
+#### If you visit the repo you'll see that they have a few examples for integrations:
 
 1. Slack
 2. Cisco Spark
@@ -71,7 +71,7 @@ controller.hears('.*', 'message_received', (bot, message) => {
 ```
 ### So Why Use Botkit?
 
-    Botkit is designed to ease the process of designing and running useful, creative bots that live inside Slack, Facebook Messenger, Twilio IP Messaging, and other messaging platforms like Twilio's Programmable SMS.
+> Botkit is designed to ease the process of designing and running useful, creative bots that live inside Slack, Facebook Messenger, Twilio IP Messaging, and other messaging platforms like Twilio's Programmable SMS.
 
 It's designed to ease many integration headaches and create a framework that can be applied to many different data sources.  This speeds up development time and allows you to focus more on scripting the conversations and actions, which to be honest is where all the real complexity lies.  
 
