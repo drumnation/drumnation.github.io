@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "React-Native-Cross-Platform-Dimensions Component"
+title: "I published an NPM to help streamline cross-platform cross-device styling in React-Native"
 date: 2017-12-17 11:39:06 -0400
 ---
 

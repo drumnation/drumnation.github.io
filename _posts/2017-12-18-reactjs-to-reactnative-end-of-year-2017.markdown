@@ -17,7 +17,7 @@ Below I've curated a list of things I had to figure out this year in order to ju
 
 [![reactnative-vs-reactjs](/images/reactjs-to-reactnative/react-dom.png)](https://medium.com/@jiyinyiyong/virtual-dom-is-the-new-ir-67839bcb5c71)
 
-This may seem obvious, but if you hadn't thought about it before it greatly changes which npms components you'll be able use in your app.  In ReactNative there is no DOM.  Therefore, any component designed in such a way that requires a DOM will not work at all in React-Native.  
+This may seem obvious, but if you hadn't thought about it before it greatly changes which npm/yarn components you'll be able use in your app.  In React-Native there is no DOM.  Therefore, any component designed in such a way that requires a DOM will not work at all in React-Native.  
 
 This means that when you're searching for a doohicky that does something, make sure you are googling `react-native-DOOHICKY` and not just `react-DOOHICKY`. 
 
