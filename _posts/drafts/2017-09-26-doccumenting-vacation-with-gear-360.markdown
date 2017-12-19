@@ -1,8 +1,8 @@
----
+<!-- ---
 layout: post
 title: "Doccumenting Vacation in 360 with Samsung's Gear 360"
 date: 2017-09-26 3:39:06 -0400
----
+--- -->
 
 # 360 as a New Artistic Medium
 

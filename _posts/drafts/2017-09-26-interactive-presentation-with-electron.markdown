@@ -1,8 +1,8 @@
----
+<!-- ---
 layout: post
 title: "Building an Interactive Car Presentation Wrapped in Electron"
 date: 2017-09-26 10:39:06 -0400
----
+--- -->
 
 Install electron as a dev dependency
 
